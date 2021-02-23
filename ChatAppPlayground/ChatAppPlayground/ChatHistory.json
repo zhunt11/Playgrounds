@@ -1,0 +1,30 @@
+[
+        {
+            "id": 1001,
+            "messageDate": "9:24 AM",
+            "messageStatus": "Delivered",
+            "messageText": "Can you help me setup a scheduled transfer?",
+            "isSender": true
+        },
+        {
+            "id": 1002,
+            "messageDate": "9:25 AM",
+            "messageStatus": "Delivered",
+            "messageText": "Sure thing!",
+            "isSender": false
+        },
+        {
+            "id": 1003,
+            "messageDate": "9:25 AM",
+            "messageStatus": "Delivered",
+            "messageText": "Could you navigate to the Transfers menu item? You’ll select the icon at the top left, that looks like 3 stacked bars, and find the item in the list that says “Transfers”.",
+            "isSender": false
+        },
+        {
+            "id": 1004,
+            "messageDate": "9:26 AM",
+            "messageStatus": "Delivered",
+            "messageText": "Ah ok, I'm there.",
+            "isSender": true
+        }
+]
