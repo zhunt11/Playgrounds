@@ -1,0 +1,96 @@
+{
+    "sections": [
+        {
+            "id": 1,
+            "items": [
+                {
+                    "id": 10,
+                    "icon": "house.fill",
+                    "text": "Accounts",
+                    "color": {"value": "system.blue"}
+                },
+                {
+                    "id": 12,
+                    "icon": "arrow.left.arrow.right",
+                    "text": "Move Money",
+                    "color": {"value": "system.green"}
+                },
+                {
+                    "id": 13,
+                    "icon": "creditcard.fill",
+                    "text": "Card Center",
+                    "color": {"value": "system.purple"}
+                },
+                {
+                    "id": 14,
+                    "icon": "doc.text.fill",
+                    "text": "Statements",
+                    "color": {"value": "system.teal"}
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "header": "Loans",
+            "items": [
+                {
+                    "id": 21,
+                    "icon": "building.columns.fill",
+                    "text": "Apply for Loan"
+                },
+                {
+                    "id": 22,
+                    "icon": "percent",
+                    "text": "Loan Calculators"
+                }
+            ],
+            "color": {"value": "68,68,68"}
+        },
+        {
+            "id": 3,
+            "header": "Deals",
+            "items": [
+                {
+                    "id": 31,
+                    "icon": "giftcard.fill",
+                    "text": "Offers & Benefits"
+                },
+                {
+                    "id": 32,
+                    "icon": "gift.fill",
+                    "text": "Checking Rewards"
+                }
+            ],
+            "color": {"value": "68,68,68"}
+        },
+        {
+            "id": 4,
+            "header": "Services",
+            "items": [
+                {
+                    "id": 41,
+                    "icon": "speedometer",
+                    "text": "Credit Score"
+                }
+            ],
+            "color": {"value": "68,68,68"}
+        },
+        {
+            "id": 5,
+            "header": "Your Account",
+            "items": [
+                {
+                    "id": 51,
+                    "icon": "person.crop.circle.fill",
+                    "text": "Contact Information"
+                },
+                {
+                    "id": 52,
+                    "icon": "gearshape.fill",
+                    "text": "Settings"
+                }
+            ],
+            "color": {"value": "68,68,68"}
+        }
+    ]
+}

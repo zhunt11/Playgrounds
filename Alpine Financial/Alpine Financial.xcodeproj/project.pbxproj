@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770DEF0925C48127002BAE46 /* PlainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF0825C48127002BAE46 /* PlainMenu.swift */; };
+		770DEF0A25C48127002BAE46 /* PlainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF0825C48127002BAE46 /* PlainMenu.swift */; };
+		770DEF1925C4A5F4002BAE46 /* DefaultMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF1825C4A5F4002BAE46 /* DefaultMenu.swift */; };
+		770DEF1A25C4A5F4002BAE46 /* DefaultMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF1825C4A5F4002BAE46 /* DefaultMenu.swift */; };
+		770DEF1E25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF1D25C4B1CE002BAE46 /* CollapsibleMenu.swift */; };
+		770DEF1F25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF1D25C4B1CE002BAE46 /* CollapsibleMenu.swift */; };
+		770DEF2325C4CEF1002BAE46 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF2225C4CEF1002BAE46 /* AppConfig.swift */; };
+		770DEF2425C4CEF1002BAE46 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF2225C4CEF1002BAE46 /* AppConfig.swift */; };
+		772D497025C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D495D25C435C0004EBA65 /* AlpineFinancialApp.swift */; };
+		772D497125C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D495D25C435C0004EBA65 /* AlpineFinancialApp.swift */; };
+		772D497225C435C0004EBA65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D495E25C435C0004EBA65 /* ContentView.swift */; };
+		772D497325C435C0004EBA65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D495E25C435C0004EBA65 /* ContentView.swift */; };
+		772D497425C435C0004EBA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772D495F25C435C0004EBA65 /* Assets.xcassets */; };
+		772D497525C435C0004EBA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772D495F25C435C0004EBA65 /* Assets.xcassets */; };
+		77CAB2F425C436850083B16B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB2F325C436850083B16B /* MenuView.swift */; };
+		77CAB2F525C436850083B16B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB2F325C436850083B16B /* MenuView.swift */; };
+		77CAB30125C437050083B16B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 77CAB30025C437050083B16B /* menu.json */; };
+		77CAB30225C437050083B16B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 77CAB30025C437050083B16B /* menu.json */; };
+		77CAB30625C4472C0083B16B /* ListMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30525C4472C0083B16B /* ListMenu.swift */; };
+		77CAB30725C4472C0083B16B /* ListMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30525C4472C0083B16B /* ListMenu.swift */; };
+		77CAB30B25C447CC0083B16B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30A25C447CC0083B16B /* ModelData.swift */; };
+		77CAB30C25C447CC0083B16B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30A25C447CC0083B16B /* ModelData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		770DEF0825C48127002BAE46 /* PlainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainMenu.swift; sourceTree = "<group>"; };
+		770DEF1825C4A5F4002BAE46 /* DefaultMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMenu.swift; sourceTree = "<group>"; };
+		770DEF1D25C4B1CE002BAE46 /* CollapsibleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleMenu.swift; sourceTree = "<group>"; };
+		770DEF2225C4CEF1002BAE46 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		772D495D25C435C0004EBA65 /* AlpineFinancialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlpineFinancialApp.swift; sourceTree = "<group>"; };
+		772D495E25C435C0004EBA65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		772D495F25C435C0004EBA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		772D496425C435C0004EBA65 /* Alpine Financial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpine Financial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		772D496725C435C0004EBA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772D496C25C435C0004EBA65 /* Alpine Financial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpine Financial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		772D496E25C435C0004EBA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772D496F25C435C0004EBA65 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		77CAB2F325C436850083B16B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		77CAB30025C437050083B16B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		77CAB30525C4472C0083B16B /* ListMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenu.swift; sourceTree = "<group>"; };
+		77CAB30A25C447CC0083B16B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772D496125C435C0004EBA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D496925C435C0004EBA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		772D495725C435BF004EBA65 = {
+			isa = PBXGroup;
+			children = (
+				772D495C25C435C0004EBA65 /* Shared */,
+				772D496625C435C0004EBA65 /* iOS */,
+				772D496D25C435C0004EBA65 /* macOS */,
+				772D496525C435C0004EBA65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		772D495C25C435C0004EBA65 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				77CAB2FF25C436CA0083B16B /* Resources */,
+				772D495D25C435C0004EBA65 /* AlpineFinancialApp.swift */,
+				772D495E25C435C0004EBA65 /* ContentView.swift */,
+				772D495F25C435C0004EBA65 /* Assets.xcassets */,
+				77CAB2F325C436850083B16B /* MenuView.swift */,
+				770DEF0825C48127002BAE46 /* PlainMenu.swift */,
+				770DEF1825C4A5F4002BAE46 /* DefaultMenu.swift */,
+				770DEF1D25C4B1CE002BAE46 /* CollapsibleMenu.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		772D496525C435C0004EBA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772D496425C435C0004EBA65 /* Alpine Financial.app */,
+				772D496C25C435C0004EBA65 /* Alpine Financial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		772D496625C435C0004EBA65 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				772D496725C435C0004EBA65 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		772D496D25C435C0004EBA65 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				772D496E25C435C0004EBA65 /* Info.plist */,
+				772D496F25C435C0004EBA65 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		77CAB2FF25C436CA0083B16B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77CAB30025C437050083B16B /* menu.json */,
+				77CAB30525C4472C0083B16B /* ListMenu.swift */,
+				77CAB30A25C447CC0083B16B /* ModelData.swift */,
+				770DEF2225C4CEF1002BAE46 /* AppConfig.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		772D496325C435C0004EBA65 /* Alpine Financial (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772D497825C435C0004EBA65 /* Build configuration list for PBXNativeTarget "Alpine Financial (iOS)" */;
+			buildPhases = (
+				772D496025C435C0004EBA65 /* Sources */,
+				772D496125C435C0004EBA65 /* Frameworks */,
+				772D496225C435C0004EBA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alpine Financial (iOS)";
+			productName = "alpine financial (iOS)";
+			productReference = 772D496425C435C0004EBA65 /* Alpine Financial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		772D496B25C435C0004EBA65 /* Alpine Financial (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772D497B25C435C0004EBA65 /* Build configuration list for PBXNativeTarget "Alpine Financial (macOS)" */;
+			buildPhases = (
+				772D496825C435C0004EBA65 /* Sources */,
+				772D496925C435C0004EBA65 /* Frameworks */,
+				772D496A25C435C0004EBA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alpine Financial (macOS)";
+			productName = "alpine financial (macOS)";
+			productReference = 772D496C25C435C0004EBA65 /* Alpine Financial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		772D495825C435BF004EBA65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					772D496325C435C0004EBA65 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					772D496B25C435C0004EBA65 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 772D495B25C435BF004EBA65 /* Build configuration list for PBXProject "Alpine Financial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 772D495725C435BF004EBA65;
+			productRefGroup = 772D496525C435C0004EBA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772D496325C435C0004EBA65 /* Alpine Financial (iOS) */,
+				772D496B25C435C0004EBA65 /* Alpine Financial (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		772D496225C435C0004EBA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CAB30125C437050083B16B /* menu.json in Resources */,
+				772D497425C435C0004EBA65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D496A25C435C0004EBA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CAB30225C437050083B16B /* menu.json in Resources */,
+				772D497525C435C0004EBA65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772D496025C435C0004EBA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770DEF2325C4CEF1002BAE46 /* AppConfig.swift in Sources */,
+				772D497225C435C0004EBA65 /* ContentView.swift in Sources */,
+				770DEF1925C4A5F4002BAE46 /* DefaultMenu.swift in Sources */,
+				77CAB2F425C436850083B16B /* MenuView.swift in Sources */,
+				77CAB30B25C447CC0083B16B /* ModelData.swift in Sources */,
+				770DEF0925C48127002BAE46 /* PlainMenu.swift in Sources */,
+				77CAB30625C4472C0083B16B /* ListMenu.swift in Sources */,
+				772D497025C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */,
+				770DEF1E25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D496825C435C0004EBA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770DEF2425C4CEF1002BAE46 /* AppConfig.swift in Sources */,
+				772D497325C435C0004EBA65 /* ContentView.swift in Sources */,
+				770DEF1A25C4A5F4002BAE46 /* DefaultMenu.swift in Sources */,
+				77CAB2F525C436850083B16B /* MenuView.swift in Sources */,
+				77CAB30C25C447CC0083B16B /* ModelData.swift in Sources */,
+				770DEF0A25C48127002BAE46 /* PlainMenu.swift in Sources */,
+				77CAB30725C4472C0083B16B /* ListMenu.swift in Sources */,
+				772D497125C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */,
+				770DEF1F25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		772D497625C435C0004EBA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		772D497725C435C0004EBA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		772D497925C435C0004EBA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z974UA66Y9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tentmaking.alpine-financial";
+				PRODUCT_NAME = "Alpine Financial";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		772D497A25C435C0004EBA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z974UA66Y9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tentmaking.alpine-financial";
+				PRODUCT_NAME = "Alpine Financial";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		772D497C25C435C0004EBA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z974UA66Y9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tentmaking.alpine-financial";
+				PRODUCT_NAME = "Alpine Financial";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		772D497D25C435C0004EBA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z974UA66Y9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tentmaking.alpine-financial";
+				PRODUCT_NAME = "Alpine Financial";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		772D495B25C435BF004EBA65 /* Build configuration list for PBXProject "Alpine Financial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772D497625C435C0004EBA65 /* Debug */,
+				772D497725C435C0004EBA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772D497825C435C0004EBA65 /* Build configuration list for PBXNativeTarget "Alpine Financial (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772D497925C435C0004EBA65 /* Debug */,
+				772D497A25C435C0004EBA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772D497B25C435C0004EBA65 /* Build configuration list for PBXNativeTarget "Alpine Financial (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772D497C25C435C0004EBA65 /* Debug */,
+				772D497D25C435C0004EBA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 772D495825C435BF004EBA65 /* Project object */;
+}
