@@ -1,0 +1,14 @@
+[
+	{
+        "id": 1,
+		"name": "Ben Cassidy",
+		"accountNumber": "****8922",
+		"accessLevel": "All Shares & Loans"
+	},
+	{
+        "id": 2,
+		"name": "Caroline Cassidy",
+		"accountNumber": "****6767",
+		"accessLevel": "All Shares & Loans"
+	}
+]

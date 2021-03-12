@@ -2,6 +2,7 @@
 import Foundation
 
 var listMenu: ListMenu = load("menu.json")
+var maaAccounts: [MAAAccount] = load("maa-data.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

@@ -29,6 +29,22 @@
 		77CAB30725C4472C0083B16B /* ListMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30525C4472C0083B16B /* ListMenu.swift */; };
 		77CAB30B25C447CC0083B16B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30A25C447CC0083B16B /* ModelData.swift */; };
 		77CAB30C25C447CC0083B16B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30A25C447CC0083B16B /* ModelData.swift */; };
+		77E6488325F19C65007654ED /* MAAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6488225F19C65007654ED /* MAAListView.swift */; };
+		77E6488425F19C65007654ED /* MAAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6488225F19C65007654ED /* MAAListView.swift */; };
+		77E6488825F19DF8007654ED /* DoubleLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6488725F19DF8007654ED /* DoubleLabelCell.swift */; };
+		77E6488925F19DF8007654ED /* DoubleLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6488725F19DF8007654ED /* DoubleLabelCell.swift */; };
+		77E6488D25F19EDB007654ED /* maa-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 77E6488C25F19EDB007654ED /* maa-data.json */; };
+		77E6488E25F19EDB007654ED /* maa-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 77E6488C25F19EDB007654ED /* maa-data.json */; };
+		77E6489925F19F02007654ED /* MAAModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6489825F19F02007654ED /* MAAModels.swift */; };
+		77E6489A25F19F02007654ED /* MAAModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6489825F19F02007654ED /* MAAModels.swift */; };
+		77E6489E25F1A5A4007654ED /* MAAAccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6489D25F1A5A4007654ED /* MAAAccountDetailView.swift */; };
+		77E6489F25F1A5A4007654ED /* MAAAccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6489D25F1A5A4007654ED /* MAAAccountDetailView.swift */; };
+		77E648A325F1A5F2007654ED /* SplitLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E648A225F1A5F2007654ED /* SplitLabelCell.swift */; };
+		77E648A425F1A5F2007654ED /* SplitLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E648A225F1A5F2007654ED /* SplitLabelCell.swift */; };
+		77E648A825F1A8F5007654ED /* MAAAddAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E648A725F1A8F5007654ED /* MAAAddAccessView.swift */; };
+		77E648A925F1A8F5007654ED /* MAAAddAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E648A725F1A8F5007654ED /* MAAAddAccessView.swift */; };
+		77E648B425F1AA36007654ED /* CNTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E648B325F1AA36007654ED /* CNTextField.swift */; };
+		77E648B525F1AA36007654ED /* CNTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E648B325F1AA36007654ED /* CNTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +64,14 @@
 		77CAB30025C437050083B16B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		77CAB30525C4472C0083B16B /* ListMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenu.swift; sourceTree = "<group>"; };
 		77CAB30A25C447CC0083B16B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		77E6488225F19C65007654ED /* MAAListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAAListView.swift; sourceTree = "<group>"; };
+		77E6488725F19DF8007654ED /* DoubleLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLabelCell.swift; sourceTree = "<group>"; };
+		77E6488C25F19EDB007654ED /* maa-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "maa-data.json"; sourceTree = "<group>"; };
+		77E6489825F19F02007654ED /* MAAModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAAModels.swift; sourceTree = "<group>"; };
+		77E6489D25F1A5A4007654ED /* MAAAccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAAAccountDetailView.swift; sourceTree = "<group>"; };
+		77E648A225F1A5F2007654ED /* SplitLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitLabelCell.swift; sourceTree = "<group>"; };
+		77E648A725F1A8F5007654ED /* MAAAddAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAAAddAccessView.swift; sourceTree = "<group>"; };
+		77E648B325F1AA36007654ED /* CNTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,7 @@
 		772D495C25C435C0004EBA65 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				77E648B325F1AA36007654ED /* CNTextField.swift */,
 				77CAB2FF25C436CA0083B16B /* Resources */,
 				772D495D25C435C0004EBA65 /* AlpineFinancialApp.swift */,
 				772D495E25C435C0004EBA65 /* ContentView.swift */,
@@ -89,6 +114,11 @@
 				770DEF0825C48127002BAE46 /* PlainMenu.swift */,
 				770DEF1825C4A5F4002BAE46 /* DefaultMenu.swift */,
 				770DEF1D25C4B1CE002BAE46 /* CollapsibleMenu.swift */,
+				77E6488225F19C65007654ED /* MAAListView.swift */,
+				77E6488725F19DF8007654ED /* DoubleLabelCell.swift */,
+				77E6489D25F1A5A4007654ED /* MAAAccountDetailView.swift */,
+				77E648A225F1A5F2007654ED /* SplitLabelCell.swift */,
+				77E648A725F1A8F5007654ED /* MAAAddAccessView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -122,10 +152,12 @@
 		77CAB2FF25C436CA0083B16B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				77E6488C25F19EDB007654ED /* maa-data.json */,
 				77CAB30025C437050083B16B /* menu.json */,
 				77CAB30525C4472C0083B16B /* ListMenu.swift */,
 				77CAB30A25C447CC0083B16B /* ModelData.swift */,
 				770DEF2225C4CEF1002BAE46 /* AppConfig.swift */,
+				77E6489825F19F02007654ED /* MAAModels.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -209,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77CAB30125C437050083B16B /* menu.json in Resources */,
+				77E6488D25F19EDB007654ED /* maa-data.json in Resources */,
 				772D497425C435C0004EBA65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77CAB30225C437050083B16B /* menu.json in Resources */,
+				77E6488E25F19EDB007654ED /* maa-data.json in Resources */,
 				772D497525C435C0004EBA65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,13 +264,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				770DEF2325C4CEF1002BAE46 /* AppConfig.swift in Sources */,
+				77E6489925F19F02007654ED /* MAAModels.swift in Sources */,
 				772D497225C435C0004EBA65 /* ContentView.swift in Sources */,
+				77E6489E25F1A5A4007654ED /* MAAAccountDetailView.swift in Sources */,
+				77E6488325F19C65007654ED /* MAAListView.swift in Sources */,
 				770DEF1925C4A5F4002BAE46 /* DefaultMenu.swift in Sources */,
+				77E648B425F1AA36007654ED /* CNTextField.swift in Sources */,
 				77CAB2F425C436850083B16B /* MenuView.swift in Sources */,
 				77CAB30B25C447CC0083B16B /* ModelData.swift in Sources */,
+				77E648A825F1A8F5007654ED /* MAAAddAccessView.swift in Sources */,
 				770DEF0925C48127002BAE46 /* PlainMenu.swift in Sources */,
+				77E648A325F1A5F2007654ED /* SplitLabelCell.swift in Sources */,
 				77CAB30625C4472C0083B16B /* ListMenu.swift in Sources */,
 				772D497025C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */,
+				77E6488825F19DF8007654ED /* DoubleLabelCell.swift in Sources */,
 				770DEF1E25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,13 +287,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				770DEF2425C4CEF1002BAE46 /* AppConfig.swift in Sources */,
+				77E6489A25F19F02007654ED /* MAAModels.swift in Sources */,
 				772D497325C435C0004EBA65 /* ContentView.swift in Sources */,
+				77E6489F25F1A5A4007654ED /* MAAAccountDetailView.swift in Sources */,
+				77E6488425F19C65007654ED /* MAAListView.swift in Sources */,
 				770DEF1A25C4A5F4002BAE46 /* DefaultMenu.swift in Sources */,
+				77E648B525F1AA36007654ED /* CNTextField.swift in Sources */,
 				77CAB2F525C436850083B16B /* MenuView.swift in Sources */,
 				77CAB30C25C447CC0083B16B /* ModelData.swift in Sources */,
+				77E648A925F1A8F5007654ED /* MAAAddAccessView.swift in Sources */,
 				770DEF0A25C48127002BAE46 /* PlainMenu.swift in Sources */,
+				77E648A425F1A5F2007654ED /* SplitLabelCell.swift in Sources */,
 				77CAB30725C4472C0083B16B /* ListMenu.swift in Sources */,
 				772D497125C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */,
+				77E6488925F19DF8007654ED /* DoubleLabelCell.swift in Sources */,
 				770DEF1F25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

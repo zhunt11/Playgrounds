@@ -5,7 +5,7 @@ import SwiftUI
 struct AlpineFinancialApp: App {
     var body: some Scene {
         WindowGroup {
-            MenuView()
+            MAAListView()
         }
     }
 }
