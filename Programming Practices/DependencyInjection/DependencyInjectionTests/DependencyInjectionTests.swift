@@ -22,21 +22,21 @@ class DependencyInjectionTests: XCTestCase {
         let raceCarEngine = RaceCarEngine()
         let raceCar = Vehicle(engine: raceCarEngine)
         
-        XCTAssert(raceCar.goForward() == "Vrooooom!")
+        XCTAssertEqual(raceCar.goForward(), "Vrooooom!")
     }
     
     func testTeslaEngine() throws {
         let teslaEngine = TeslaEngine()
         let model3 = Vehicle(engine: teslaEngine)
         
-        XCTAssert(model3.goForward() == "Whirrrrrrrr")
+        XCTAssertEqual(model3.goForward(), "Whirrrrrrrr")
     }
     
     func testRocketEngine() throws {
         let rocketEngine = RocketEngine()
         let dragon = Vehicle(engine: rocketEngine)
         
-        XCTAssert(dragon.goForward() == "3-2-1...Ignition...PPPPSSSSCHHHHOOOOOOOOOMMMMMM!!!")
+        XCTAssertEqual(dragon.goForward(), "3-2-1...Ignition...PPPPSSSSCHHHHOOOOOOOOOMMMMMM!!!")
     }
 
     func testPerformanceExample() throws {

@@ -1,6 +1,8 @@
 # Dependency Injection
 
-## Fast Facts. Dependency Injection...
+## Fast Facts
+
+Dependency Injection...
 - Allows us to decouple our code from it's dependencies
 - Makes our code testable as we can pass in a mock of an object as needed
 - Makes our code reusable as we don't have to change the dependencies when reusing the class
@@ -14,7 +16,9 @@
 - If we pull out the creation of that dependency and pass it in (eg in an initializer) we allow for unit tests to mock the dependency and test the class independently.
 - When mocking a dependency it may require creating a new object solely created for the purpose of testing. The object just has to adhere to whatever protocol is required and it can implement the functions as needed and return whatever results the test requires. 
 
-## Dependency Injection Types. Injecting dependencies...
+## Dependency Injection Types
+
+Injecting dependencies...
 - in the Initializer
 - via Properties
 - via Methods
