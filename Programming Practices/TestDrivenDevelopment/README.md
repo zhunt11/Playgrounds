@@ -16,3 +16,8 @@
 - TDD is not about getting developers to write more tests, or about writing more well designed code
 - TDD helps developers implement only the requirements of the program and know when they are done
 - With TDD, when you are done, you should have 100% test coverage as all the code you wrote was a result of first writing a test.
+
+## References
+https://medium.com/macoclock/test-driven-development-tdd-in-swift-b903b31598b6
+
+https://www.guru99.com/test-driven-development.html
