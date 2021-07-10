@@ -3,8 +3,8 @@ import SwiftUI
 
 struct CNTextField: View {
     @State var value: String = ""
-    var title: String = ""
-    @State var assistiveText: String = ""
+    var title: String = "Name"
+    @State var assistiveText: String = "Lorem ipsum dolor sit amet"
     
     var body: some View {
         VStack (spacing: 4) {
@@ -12,20 +12,21 @@ struct CNTextField: View {
                 Text(title)
                     .font(.body)
                     .fontWeight(.regular)
+                    .foregroundColor(Color.init(UIColor.label))
                 Spacer()
             }
             
             Group {
                 TextField("Enter \(title)", text: $value)
             }
-            .padding(12)
-            .overlay(RoundedRectangle(cornerRadius: 8.0).stroke(Color.gray, lineWidth: 1))
+            .padding(16)
+            .overlay(RoundedRectangle(cornerRadius: 8.0).stroke(Color.init(UIColor.separator), lineWidth: 1))
             
             HStack {
                 Text(assistiveText)
                     .font(.callout)
                     .fontWeight(.regular)
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color.init(UIColor.secondaryLabel))
                 Spacer()
             }
         }

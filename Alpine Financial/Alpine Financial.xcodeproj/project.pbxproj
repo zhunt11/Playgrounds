@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77004AB7266053E3007E254F /* STTypeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77004AB6266053E3007E254F /* STTypeSelection.swift */; };
+		77004AB8266053E3007E254F /* STTypeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77004AB6266053E3007E254F /* STTypeSelection.swift */; };
+		77004ABA266055A7007E254F /* STInternalTransferForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77004AB9266055A7007E254F /* STInternalTransferForm.swift */; };
+		77004ABB266055A7007E254F /* STInternalTransferForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77004AB9266055A7007E254F /* STInternalTransferForm.swift */; };
+		770BA565266919F800272FAB /* ChangePinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BA564266919F800272FAB /* ChangePinView.swift */; };
+		770BA566266919F800272FAB /* ChangePinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BA564266919F800272FAB /* ChangePinView.swift */; };
 		770DEF0925C48127002BAE46 /* PlainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF0825C48127002BAE46 /* PlainMenu.swift */; };
 		770DEF0A25C48127002BAE46 /* PlainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF0825C48127002BAE46 /* PlainMenu.swift */; };
 		770DEF1925C4A5F4002BAE46 /* DefaultMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DEF1825C4A5F4002BAE46 /* DefaultMenu.swift */; };
@@ -21,6 +27,14 @@
 		772D497325C435C0004EBA65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D495E25C435C0004EBA65 /* ContentView.swift */; };
 		772D497425C435C0004EBA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772D495F25C435C0004EBA65 /* Assets.xcassets */; };
 		772D497525C435C0004EBA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772D495F25C435C0004EBA65 /* Assets.xcassets */; };
+		7746353B2666729100001129 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746353A2666729100001129 /* CardDetailView.swift */; };
+		7746353C2666729100001129 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746353A2666729100001129 /* CardDetailView.swift */; };
+		7746353E2666787F00001129 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746353D2666787F00001129 /* CardView.swift */; };
+		7746353F2666787F00001129 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746353D2666787F00001129 /* CardView.swift */; };
+		777595EC266A6E2500DE7AE3 /* LocationControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777595EB266A6E2500DE7AE3 /* LocationControlsView.swift */; };
+		777595ED266A6E2500DE7AE3 /* LocationControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777595EB266A6E2500DE7AE3 /* LocationControlsView.swift */; };
+		77C33988266945D0009DB0B9 /* TextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C33987266945D0009DB0B9 /* TextFieldManager.swift */; };
+		77C33989266945D0009DB0B9 /* TextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C33987266945D0009DB0B9 /* TextFieldManager.swift */; };
 		77CAB2F425C436850083B16B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB2F325C436850083B16B /* MenuView.swift */; };
 		77CAB2F525C436850083B16B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB2F325C436850083B16B /* MenuView.swift */; };
 		77CAB30125C437050083B16B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 77CAB30025C437050083B16B /* menu.json */; };
@@ -29,6 +43,8 @@
 		77CAB30725C4472C0083B16B /* ListMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30525C4472C0083B16B /* ListMenu.swift */; };
 		77CAB30B25C447CC0083B16B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30A25C447CC0083B16B /* ModelData.swift */; };
 		77CAB30C25C447CC0083B16B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CAB30A25C447CC0083B16B /* ModelData.swift */; };
+		77E395FF2667FBB30016AD1B /* CardConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E395FE2667FBB30016AD1B /* CardConfirmationView.swift */; };
+		77E396002667FBB30016AD1B /* CardConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E395FE2667FBB30016AD1B /* CardConfirmationView.swift */; };
 		77E6488325F19C65007654ED /* MAAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6488225F19C65007654ED /* MAAListView.swift */; };
 		77E6488425F19C65007654ED /* MAAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6488225F19C65007654ED /* MAAListView.swift */; };
 		77E6488825F19DF8007654ED /* DoubleLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6488725F19DF8007654ED /* DoubleLabelCell.swift */; };
@@ -48,6 +64,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77004AB6266053E3007E254F /* STTypeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTypeSelection.swift; sourceTree = "<group>"; };
+		77004AB9266055A7007E254F /* STInternalTransferForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STInternalTransferForm.swift; sourceTree = "<group>"; };
+		770BA564266919F800272FAB /* ChangePinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePinView.swift; sourceTree = "<group>"; };
 		770DEF0825C48127002BAE46 /* PlainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainMenu.swift; sourceTree = "<group>"; };
 		770DEF1825C4A5F4002BAE46 /* DefaultMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMenu.swift; sourceTree = "<group>"; };
 		770DEF1D25C4B1CE002BAE46 /* CollapsibleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleMenu.swift; sourceTree = "<group>"; };
@@ -60,10 +79,15 @@
 		772D496C25C435C0004EBA65 /* Alpine Financial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpine Financial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		772D496E25C435C0004EBA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		772D496F25C435C0004EBA65 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7746353A2666729100001129 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		7746353D2666787F00001129 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		777595EB266A6E2500DE7AE3 /* LocationControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationControlsView.swift; sourceTree = "<group>"; };
+		77C33987266945D0009DB0B9 /* TextFieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldManager.swift; sourceTree = "<group>"; };
 		77CAB2F325C436850083B16B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		77CAB30025C437050083B16B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		77CAB30525C4472C0083B16B /* ListMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenu.swift; sourceTree = "<group>"; };
 		77CAB30A25C447CC0083B16B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		77E395FE2667FBB30016AD1B /* CardConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardConfirmationView.swift; sourceTree = "<group>"; };
 		77E6488225F19C65007654ED /* MAAListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAAListView.swift; sourceTree = "<group>"; };
 		77E6488725F19DF8007654ED /* DoubleLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLabelCell.swift; sourceTree = "<group>"; };
 		77E6488C25F19EDB007654ED /* maa-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "maa-data.json"; sourceTree = "<group>"; };
@@ -119,6 +143,13 @@
 				77E6489D25F1A5A4007654ED /* MAAAccountDetailView.swift */,
 				77E648A225F1A5F2007654ED /* SplitLabelCell.swift */,
 				77E648A725F1A8F5007654ED /* MAAAddAccessView.swift */,
+				77004AB6266053E3007E254F /* STTypeSelection.swift */,
+				77004AB9266055A7007E254F /* STInternalTransferForm.swift */,
+				7746353A2666729100001129 /* CardDetailView.swift */,
+				7746353D2666787F00001129 /* CardView.swift */,
+				77E395FE2667FBB30016AD1B /* CardConfirmationView.swift */,
+				770BA564266919F800272FAB /* ChangePinView.swift */,
+				777595EB266A6E2500DE7AE3 /* LocationControlsView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -158,6 +189,7 @@
 				77CAB30A25C447CC0083B16B /* ModelData.swift */,
 				770DEF2225C4CEF1002BAE46 /* AppConfig.swift */,
 				77E6489825F19F02007654ED /* MAAModels.swift */,
+				77C33987266945D0009DB0B9 /* TextFieldManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -206,7 +238,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					772D496325C435C0004EBA65 = {
 						CreatedOnToolsVersion = 12.4;
@@ -263,19 +295,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C33988266945D0009DB0B9 /* TextFieldManager.swift in Sources */,
+				7746353B2666729100001129 /* CardDetailView.swift in Sources */,
 				770DEF2325C4CEF1002BAE46 /* AppConfig.swift in Sources */,
 				77E6489925F19F02007654ED /* MAAModels.swift in Sources */,
 				772D497225C435C0004EBA65 /* ContentView.swift in Sources */,
+				77E395FF2667FBB30016AD1B /* CardConfirmationView.swift in Sources */,
 				77E6489E25F1A5A4007654ED /* MAAAccountDetailView.swift in Sources */,
 				77E6488325F19C65007654ED /* MAAListView.swift in Sources */,
 				770DEF1925C4A5F4002BAE46 /* DefaultMenu.swift in Sources */,
 				77E648B425F1AA36007654ED /* CNTextField.swift in Sources */,
 				77CAB2F425C436850083B16B /* MenuView.swift in Sources */,
+				77004AB7266053E3007E254F /* STTypeSelection.swift in Sources */,
 				77CAB30B25C447CC0083B16B /* ModelData.swift in Sources */,
+				777595EC266A6E2500DE7AE3 /* LocationControlsView.swift in Sources */,
+				77004ABA266055A7007E254F /* STInternalTransferForm.swift in Sources */,
 				77E648A825F1A8F5007654ED /* MAAAddAccessView.swift in Sources */,
 				770DEF0925C48127002BAE46 /* PlainMenu.swift in Sources */,
+				7746353E2666787F00001129 /* CardView.swift in Sources */,
 				77E648A325F1A5F2007654ED /* SplitLabelCell.swift in Sources */,
 				77CAB30625C4472C0083B16B /* ListMenu.swift in Sources */,
+				770BA565266919F800272FAB /* ChangePinView.swift in Sources */,
 				772D497025C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */,
 				77E6488825F19DF8007654ED /* DoubleLabelCell.swift in Sources */,
 				770DEF1E25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */,
@@ -286,19 +326,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C33989266945D0009DB0B9 /* TextFieldManager.swift in Sources */,
+				7746353C2666729100001129 /* CardDetailView.swift in Sources */,
 				770DEF2425C4CEF1002BAE46 /* AppConfig.swift in Sources */,
 				77E6489A25F19F02007654ED /* MAAModels.swift in Sources */,
 				772D497325C435C0004EBA65 /* ContentView.swift in Sources */,
+				77E396002667FBB30016AD1B /* CardConfirmationView.swift in Sources */,
 				77E6489F25F1A5A4007654ED /* MAAAccountDetailView.swift in Sources */,
 				77E6488425F19C65007654ED /* MAAListView.swift in Sources */,
 				770DEF1A25C4A5F4002BAE46 /* DefaultMenu.swift in Sources */,
 				77E648B525F1AA36007654ED /* CNTextField.swift in Sources */,
 				77CAB2F525C436850083B16B /* MenuView.swift in Sources */,
+				77004AB8266053E3007E254F /* STTypeSelection.swift in Sources */,
 				77CAB30C25C447CC0083B16B /* ModelData.swift in Sources */,
+				777595ED266A6E2500DE7AE3 /* LocationControlsView.swift in Sources */,
+				77004ABB266055A7007E254F /* STInternalTransferForm.swift in Sources */,
 				77E648A925F1A8F5007654ED /* MAAAddAccessView.swift in Sources */,
 				770DEF0A25C48127002BAE46 /* PlainMenu.swift in Sources */,
+				7746353F2666787F00001129 /* CardView.swift in Sources */,
 				77E648A425F1A5F2007654ED /* SplitLabelCell.swift in Sources */,
 				77CAB30725C4472C0083B16B /* ListMenu.swift in Sources */,
+				770BA566266919F800272FAB /* ChangePinView.swift in Sources */,
 				772D497125C435C0004EBA65 /* AlpineFinancialApp.swift in Sources */,
 				77E6488925F19DF8007654ED /* DoubleLabelCell.swift in Sources */,
 				770DEF1F25C4B1CE002BAE46 /* CollapsibleMenu.swift in Sources */,
@@ -470,6 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z974UA66Y9;
@@ -494,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z974UA66Y9;
